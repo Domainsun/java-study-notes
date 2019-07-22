@@ -671,4 +671,4 @@ public interface TbUserMapper extends BaseMapper<TbUser> {
 
 # 完整代码
 
-完整代码地址:`www.baidu.com`
+完整代码地址: https://github.com/domain9065/java-study-notes/tree/master/hello-mybatisplus
