@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hello-jwt-shiro
+server:
+  port: 8081
