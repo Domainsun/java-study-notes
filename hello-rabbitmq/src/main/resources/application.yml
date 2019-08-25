@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hello-rabbitmq
+  rabbitmq:
+    host: 192.168.220.132
+    port: 5672
+    username: rabbit
+    password: 123456
+
+    publisher-confirms: true # 发送确认
+    publisher-returns: true  # 发送回调
+    listener:
+      simple:
+        acknowledge-mode: manual #消费手动确认
