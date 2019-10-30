@@ -1,0 +1,23 @@
+spring:
+  thymeleaf:
+    cache: false # 开发时关闭缓存,不然没法看到实时页面
+    mode: HTML # 用非严格的 HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.220.131:3306/myshop?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      # MySQL 8.x: com.mysql.cj.jdbc.Driver
+      driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  type-aliases-package: #实体类的存放路径，如：com.funtl.hello.spring.boot.entity
+  mapper-locations: classpath:mapper/*.xml

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hello-docker
+server:
+  port: 8761

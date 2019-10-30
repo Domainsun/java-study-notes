@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7744b3af-d220-4e2d-9306-ab18e5d74ffd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/learn-java-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/court-cloud/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/HelloSpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbContentCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbItemCatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbItemDescMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbItemParamItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbItemParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbOrderShippingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/dao/TbUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbContentCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbItemCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbItemDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbItemParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbItemParamItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbOrderShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/TbUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/test/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/com/domain/hello/spring/boot/test/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/java/tk/mybatis/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/test/java/com/domain/hello/spring/boot/HelloSpringBootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/test/java/com/domain/hello/spring/boot/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-boot/src/test/java/com/domain/hello/spring/boot/controller/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-admin/src/main/java/com/domain/hello/spring/cloud/admin/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zipkin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zipkin/src/main/java/com/domain/hello/spring/cloud/zipkin/ZipKinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zipkin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/src/main/java/com/funtl/hello/spring/cloud/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/src/main/java/com/domain/hello/spring/cloud/config/ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/src/main/resouces/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-config/src/main/resources/config/eureka-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/src/main/java/com/domain/hello/spring/could/pos/feign/PosFeginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/src/main/java/com/domain/hello/spring/cloud/pos/feign/PosFeginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/src/main/java/com/domain/hello/spring/could/pos/feign/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/src/main/java/com/domain/hello/spring/cloud/pos/feign/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-pos-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-service-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-service-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-service-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-web-admin-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-web-admin-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-web-admin-feign/src/main/java/com/domain/hello/spring/cloud/web/admin/feign/WebAdminFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-web-admin-feign/src/main/java/com/domain/hello/spring/cloud/web/admin/feign/WebAdminFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud/hello-spring-cloud-zuul/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello-jwt-shiro/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn-java-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-java-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-java-web" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-jwt-shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566135085836" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7744b3af-d220-4e2d-9306-ab18e5d74ffd" name="Default Changelist" comment="" />
+      <created>1566134506174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566134506174</updated>
+      <workItem from="1566134508137" duration="579000" />
+    </task>
+    <task id="LOCAL-00001" summary="1. 基于spring boot 通过 jwt 和shiro 来做鉴权。">
+      <created>1566134692980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566134692981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="579000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="1. 基于spring boot 通过 jwt 和shiro 来做鉴权。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 基于spring boot 通过 jwt 和shiro 来做鉴权。" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hello-jwt-shiro/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

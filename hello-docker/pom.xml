@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.8.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.domain</groupId>
+    <artifactId>hello-docker</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>hello-docker</name>
+    <description>使用docker一次构建，到处运行 ，用harbor管理私服</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <docker.image.prefix>court</docker.image.prefix>
+        <registry.url>http://192.168.220.132</registry.url>
+        <docker.host>http://192.168.220.132:2375</docker.host>
+        <docker.plugin.version>1.2.0</docker.plugin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>${docker.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>tag-image</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>tag</goal>
+                        </goals>
+                        <configuration>
+                            <image>${registry.url}/${docker.image.prefix}/${project.artifactId}:${project.version}</image>
+                            <newName>${registry.url}/${docker.image.prefix}/${project.artifactId}:${project.version}</newName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>push-image</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>push</goal>
+                        </goals>
+                        <configuration>
+                            <imageName>${registry.url}/${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <serverId>docker-harbor</serverId>
+                    <registryUrl>${registry.url}</registryUrl>
+                    <dockerHost>${docker.host}</dockerHost>
+                    <forceTags>true</forceTags>
+                    <pushImage>true</pushImage>
+                    <dockerDirectory>${project.basedir}</dockerDirectory>
+                    <imageName>
+                        ${registry.url}/${docker.image.prefix}/${project.artifactId}:${project.version}
+                    </imageName>
+                    <imageTags>
+                        <imageTag>${project.version}</imageTag>
+                    </imageTags>
+                    <resources>
+                        <rescource>
+                            <targetPath></targetPath>
+                            <directory>target/</directory>
+                            <include>${project.build.finalName}.war</include>
+                        </rescource>
+                    </resources>
+                </configuration>
+            </plugin>
+
+
+
+
+        </plugins>
+    </build>
+
+</project>
