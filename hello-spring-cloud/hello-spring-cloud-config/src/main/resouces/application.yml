@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+
+  zipkin:
+    base-url: http://localhost:8891
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/domain9065/spring-config.git
+          search-paths: respo
+          username: domain9065
+          password: 888chinaunicom
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/

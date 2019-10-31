@@ -1,0 +1,26 @@
+#spring:
+#  application:
+#    name: hello-spring-cloud-web-admin-feign
+#
+#server:
+#  port: 8884
+#
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8881/eureka/
+#
+#feign:
+#  hystrix:
+#    enabled: true
+
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: web-admin-fegin
+      label: master
+      profile: dev
+

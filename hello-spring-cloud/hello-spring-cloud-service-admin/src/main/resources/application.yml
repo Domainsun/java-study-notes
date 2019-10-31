@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello-spring-cloud-service-admin
+  zipkin:
+    base-url: http://localhost:8891
+server:
+  port: 8883
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8881/eureka/

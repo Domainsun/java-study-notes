@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hello-spring-cloud-pos-feign
+  zipkin:
+    base-url: http://localhost:8891
+server:
+  port: 8887
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8881/eureka/
+
+feign:
+  hystrix:
+    enabled: true

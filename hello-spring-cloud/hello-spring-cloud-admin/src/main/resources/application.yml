@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: hello-spring-cloud-admin
+  zipkin:
+    base-url: http://localhost:8891
+
+server:
+  port: 8892
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        # 注意：此处在视频里是 include: ["health", "info"] 但已无效了，请修改
+        include: health,info
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/

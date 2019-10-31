@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hello-spring-cloud-zipkin
+
+server:
+  port: 8891
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
